@@ -1,0 +1,36 @@
+/* importer la police roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'roboto serif ';font-size: 25px;
+
+}
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilisation de flexbox pour une disposition en ligne */
+    justify-content: center; /* Centrer les éléments de la barre de navigation */
+}
+
+.navbar-item {
+    padding: 14px 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.navbar-item a:hover {
+    background-color: #575757;
+    color: white;
+}
